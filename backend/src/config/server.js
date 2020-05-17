@@ -10,3 +10,5 @@ server.use(bodyParser.json())
 server.listen(port, function() {
     console.log(`BACKEND TUAG is running on port ${port}.`)
 })
+
+module.exports = server
